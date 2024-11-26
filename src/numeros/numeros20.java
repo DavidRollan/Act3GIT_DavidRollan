@@ -12,7 +12,7 @@ public class numeros20 {
         Random random = new Random();
         
         System.out.println("20 números aleatorios entre 1 y 10:");
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 30; i++) {
             int numeroAleatorio = random.nextInt(10) + 1; // Genera un número entre 1 y 10
             System.out.println(numeroAleatorio);
         }
